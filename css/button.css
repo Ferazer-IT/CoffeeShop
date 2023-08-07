@@ -1,0 +1,127 @@
+.test {
+    background: rgba(201, 158, 113, 1);
+    font-family: RobotoB, sans-serif;
+    color: white;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 166px;
+}
+
+.test:hover {
+    background: rgb(116, 84, 50);
+    color: rgb(255, 255, 255);
+}
+
+
+/*Product*/
+.add-to-cart {
+    display: flex;
+    align-items: center;
+    background: rgba(201, 158, 113, 1);
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-family: RobotoM, sans-serif;
+    margin-left: 99px;
+    margin-top: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.add-to-cart:hover {
+    background: rgb(68, 54, 38);
+    cursor: pointer;
+}
+
+
+.product-button {
+    margin-right: 12px;
+}
+
+
+.view-all-product {
+    background: rgba(201, 158, 113, 1);
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-family: RobotoM, sans-serif;
+    margin-right: 40px;
+    margin-top: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.view-all-product:hover {
+    background: rgb(68, 54, 38);
+    cursor: pointer;
+}
+
+/*Coffee Machine*/
+.machine-button {
+    background: rgba(201, 158, 113, 1);
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-family: RobotoM, sans-serif;
+    margin-right: 40px;
+    margin-top: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 36px;
+}
+
+
+.machine-button:hover {
+    background: rgb(68, 54, 38);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
