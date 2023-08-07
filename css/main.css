@@ -1,0 +1,444 @@
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+
+.gallery-images {
+    display: flex;
+    flex-direction: column;
+    margin-right: 36px;
+}
+
+
+.gallery-images:last-child {
+    margin: 0;
+}
+
+.gallery-img {
+    width: 366px;
+}
+
+.gallery-text {
+    font-size: 24px;
+    font-family: RobotoM, sans-serif;
+    color: white;
+}
+
+.gallery-primary {
+    color: rgba(201, 158, 113, 1);
+    margin-right: 12px;
+}
+
+/*History*/
+.history {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.history-images {
+    display: flex;
+}
+
+
+.history-image {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
+.history-img {
+    margin-top: 32px;
+}
+
+
+.our-history {
+    background: rgba(28, 24, 20, 0.801);
+    width: 510px;
+    margin-left: 32px;
+    padding-top: 120px;
+    padding-left: 56px;
+    padding-bottom: 147px;
+}
+
+
+
+.our-history-text {
+    color:rgba(201, 158, 113, 1);
+    font-size: 18px;
+    font-family: RobotoM, sans-serif;
+    margin: 0;
+}
+
+
+.history-primary {
+    font-size: 48px;
+    color: white;
+    font-family: RobotoB,sans-serif;
+    width: 398px;
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 36px;
+}
+
+.history-secondary {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: RobotoT, sans-serif;
+    width: 398px;
+    margin: 0;
+}
+
+
+/*Product*/
+.popular-product{
+    margin-top: 140px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+}
+
+.product-text {
+    color: rgba(201, 158, 113, 1);
+    font-size: 18px;
+    font-family: RobotoM, sans-serif;
+    margin: 0;
+}
+
+
+
+.product-primary {
+    color: white;
+    font-size: 48px;
+    font-family: RobotoB, sans-serif;
+    margin: 0;
+    margin-bottom: 56px;
+    margin-top: 12px;
+}
+
+
+.product-info {
+    margin-right: 36px;
+    background: rgba(18, 19, 21, 1);
+    width: 366px;
+    height: 579px;
+}
+
+.product-img {
+    padding-top: 48px;
+}
+
+.vector {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.vector-text {
+    color: rgba(201, 158, 113, 1);
+    margin: 0;
+    margin-right: 15px;
+}
+
+.vector-img {
+    margin: 0;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.vector-img:last-child {
+    margin: 0;
+}
+
+
+
+.product-born {
+    color: white;
+    font-family: RobotoB, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 36px;
+}
+
+
+.price {
+    color: white;
+    font-family: RobotoB, sans-serif;
+    font-size: 18px;
+}
+
+
+.price-primary {
+    color: rgba(201, 158, 113, 1);
+}
+
+
+/*Coffee machine*/
+.coffee-machine {
+    margin-top: 140px;
+}
+
+
+.machine {
+    display: flex;
+    justify-content: center;
+    background: rgba(28, 24, 20, 0.801);
+    width: 1000px;
+    margin-left: 90px;
+    padding-top: 72px;
+    padding-left: 169px;
+    padding-bottom: 54px;
+}
+
+.machine-img {
+    display: flex;
+}
+
+
+.machine-info {
+    margin-left: 160px;
+}
+
+
+
+.machine-primary {
+    color: white;
+    font-size: 48px;
+    width: 400px;
+    font-family: RobotoB, sans-serif;
+    margin: 0;
+}
+
+
+
+.machine-secondary {
+    color: white;
+    width: 535px;
+    font-size: 16px;
+    font-family: RobotoT, sans-serif;
+    margin: 0;
+    margin-top: 36px;
+}
+
+/*News*/
+.latest-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+}
+
+
+.last-news {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    background: rgba(28, 24, 20, 1);
+    height: 528px;
+    margin-left: 36px;
+}
+
+.news:first-child {
+    margin: 0;
+}
+
+.news-text {
+    color: rgba(201, 158, 113, 1);
+    font-size: 16px;
+    font-family: RobotoM, sans-serif;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.news-primary {
+    color: white;
+    font-family: RobotoB, sans-serif;
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 56px;
+}
+
+
+.news-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+    font-family: RobotoL, sans-serif;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.news-strong {
+    color: rgba(201, 158, 113, 1);
+}
+
+.user-name {
+    color: white;
+    font-size: 18px;
+    font-family: RobotoL, sans-serif;
+}
+
+.comment {
+    padding-left: 24px;
+    font-size: 20px;
+    font-family: RobotoB, sans-serif;
+    color: white;
+}
+
+.read-more {
+    padding-left: 24px;
+    color: rgba(201, 158, 113, 1);
+    font-size: 16px;
+    font-family: RobotoL, sans-serif;
+    cursor: pointer;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
